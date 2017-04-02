@@ -42,6 +42,7 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="GalloAlejandro.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
