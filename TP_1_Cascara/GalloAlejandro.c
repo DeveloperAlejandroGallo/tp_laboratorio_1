@@ -17,11 +17,7 @@ int restar(int n1, int n2)
 
 float dividir(int nro1, int nro2)
 {
-    if(nro2 == 0)
-    {
-        printf("No se puede dividir por CERO!!!\n");
-        return 0.0;
-    }
+
     return (float)nro1 / (float)nro2;
 
 }

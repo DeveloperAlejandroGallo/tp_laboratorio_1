@@ -41,53 +41,63 @@ int main()
         switch(opcion)
         {
             case '1':
-                printf("Ingrese el 1er Nro: ");
+                printf("A= ");
                 operando1 = obtenerNro();
                 bOperando1=1;
                 break;
             case '2':
-                printf("Ingrese el 2do Nro: ");
+                printf("B= ");
                 operando2 = obtenerNro();
                 bOperando2=1;
                 break;
             case '3':
 				if(bOperando1 == 1 && bOperando2 == 1)
-					printf("La suma (A+B): %d \n",sumar(operando1,operando2));
+					printf("%d + %d= %d \n", operando1,operando2,sumar(operando1,operando2));
                 break;
             case '4':
 				if(bOperando1 == 1 && bOperando2 == 1)
-					printf("La resta (A-B): %d \n", restar(operando1,operando2));
+					printf("%d - %d= %d \n",operando1,operando2, restar(operando1,operando2));
                 break;
             case '5':
 				if(bOperando1 == 1 && bOperando2 == 1)
                 {
-					if(operando2 !=0)
-                        printf("La division (A/B): %f \n", dividir(operando1,operando2));
-                    else
-                        printf("ERROR: Esta intentando dividir por cero.");
+                    if(operando2 !=0 )
+                        printf("%d / %d= %f \n", operando1,operando2,dividir(operando1,operando2));
+					else
+                        printf("%d / %d= ERROR: Esta intentando dividir por cero.\n",operando1,operando2);
                 }
                 break;
             case '6':
 				if(bOperando1 == 1 && bOperando2 == 1)
-					printf("La multiplicacion (A*B): %d \n", multiplicar(operando1,operando2));
+					printf("%d * %d= %d \n",operando1,operando2, multiplicar(operando1,operando2));
                 break;
             case '7':
                 //Se requiere el 1er operando y debe ser mayor o igual a cero. Ya que matematicamente se define 0! = 1.
 				if(bOperando1 == 1 )
-                    if(operando1 >= 0)
-                        printf("El factorial (A!): %d \n", factorial(operando1));
-                    else
-                        printf("No se puede realizar el factorial del nro %d porque es negativo\n", operando1);
+					if(operando1>=0)
+                        printf("%d!= %d \n",operando1, factorial(operando1));
+					else
+                        printf("%d!= ERROR el Nro debe ser mayor o igual a cero\n",operando1, operando1);
                 break;
             case '8':
 				if(bOperando1 == 1 && bOperando2 == 1)
 				{
 					printf("\n");
-					printf("La suma (A+B): %d \n", sumar(operando1,operando2));
-					printf("La resta (A-B): %d \n", restar(operando1,operando2));
-					printf("La division (A/B): %f \n", dividir(operando1,operando2));
-					printf("La multiplicacion (A*B): %d \n", multiplicar(operando1,operando2));
-					printf("El factorial (A!): %d \n", factorial(operando1));
+					printf("%d + %d= %d \n", operando1,operando2,sumar(operando1,operando2));
+
+					printf("%d - %d= %d \n",operando1,operando2, restar(operando1,operando2));
+
+					if(operando2 !=0 )
+                        printf("%d / %d= %f \n", operando1,operando2,dividir(operando1,operando2));
+					else
+                        printf("%d / %d= ERROR: Esta intentando dividir por cero.\n");
+
+					printf("%d * %d= %d \n",operando1,operando2, multiplicar(operando1,operando2));
+
+					if(operando1>=0)
+                        printf("%d!= %d \n",operando1, factorial(operando1));
+					else
+                        printf("%d!= ERROR el Nro debe ser mayor o igual a cero\n",operando1, operando1);
 				}
                 break;
             case '9':
