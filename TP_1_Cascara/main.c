@@ -71,8 +71,12 @@ int main()
 					printf("La multiplicacion (A*B): %d \n", multiplicar(operando1,operando2));
                 break;
             case '7':
-				if(bOperando1 == 1 && bOperando2 == 1)
-					printf("El factorial (A!): %d \n", factorial(operando1));
+                //Se requiere el 1er operando y debe ser mayor a cero.
+				if(bOperando1 == 1 )
+                    if(operando1 > 0)
+                        printf("El factorial (A!): %d \n", factorial(operando1));
+                    else
+                        printf("No se puede realizar el factorial del nro %d porque es negativo\n", operando1);
                 break;
             case '8':
 				if(bOperando1 == 1 && bOperando2 == 1)
@@ -91,11 +95,15 @@ int main()
                 break;
         }
 
-		if((bOperando1 == 0 || bOperando2 == 0) && opcion != '9' && opcion != '1' && opcion != '2')
+        //Ambos operandos deben estar cargados para las opciones que requieren los 2
+		if((bOperando1 == 0 || bOperando2 == 0) && opcion != '9' && opcion != '1' && opcion != '2'  && opcion != '7')
 		{
 			printf("Ambos operandos deben estar cargados!\n\n");
-
 		}
+		else if (bOperando1 == 0 && opcion == '7')  //Validacion para el factorial ya que solo requiere el 1er operador
+            printf("Debe cargar el 1er operando.\n\n");
+
+        //Pausa para mostrar el resultado
 		if(opcion != '1' && opcion != '2')
 		system("pause");
     }
