@@ -71,9 +71,9 @@ int main()
 					printf("La multiplicacion (A*B): %d \n", multiplicar(operando1,operando2));
                 break;
             case '7':
-                //Se requiere el 1er operando y debe ser mayor a cero.
+                //Se requiere el 1er operando y debe ser mayor o igual a cero. Ya que matematicamente se define 0! = 1.
 				if(bOperando1 == 1 )
-                    if(operando1 > 0)
+                    if(operando1 >= 0)
                         printf("El factorial (A!): %d \n", factorial(operando1));
                     else
                         printf("No se puede realizar el factorial del nro %d porque es negativo\n", operando1);
