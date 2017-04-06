@@ -3,6 +3,7 @@
 #include <conio.h>
 #include "GalloAlejandro.h"
 
+
 int main()
 {
     char seguir='s';
