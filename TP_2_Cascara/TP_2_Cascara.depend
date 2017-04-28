@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1493091745 source:c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\codigo\tp2\tp_2_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1493091925 c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\codigo\tp2\tp_2_cascara\funciones.h
+
+1493360985 source:c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\codigo\tp2\tp_2_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"datos.h"
+	"personas.h"
+
+1493357365 source:c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\codigo\tp2\tp_2_cascara\datos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"datos.h"
+
+1493354240 c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\codigo\tp2\tp_2_cascara\datos.h
+
+1493361439 c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\codigo\tp2\tp_2_cascara\personas.h
+
+1493362098 source:c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\codigo\tp2\tp_2_cascara\personas.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+	"personas.h"
+	"datos.h"
+
