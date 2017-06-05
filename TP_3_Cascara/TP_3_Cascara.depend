@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1496024579 source:c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\codigo\tp3\tp_3_cascara\datos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"datos.h"
+
+1496009155 c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\codigo\tp3\tp_3_cascara\datos.h
+
+1496618959 source:c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\codigo\tp3\tp_3_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	"movies.h"
+
+1496364566 c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\codigo\tp3\tp_3_cascara\movies.h
+
+1496619744 source:c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\codigo\tp3\tp_3_cascara\movies.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+	"movies.h"
+	"datos.h"
+
+1496024579 source:c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\tps\tp3\tp_3_cascara_modif\datos.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	"datos.h"
+
+1496626838 c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\tps\tp3\tp_3_cascara_modif\datos.h
+
+1496627000 source:c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\tps\tp3\tp_3_cascara_modif\main.c
+	<stdio.h>
+	<stdlib.h>
+	"movies.h"
+	"datos.h"
+
+1496626706 c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\tps\tp3\tp_3_cascara_modif\movies.h
+
+1496626116 source:c:\ale\documentos\google drive\utn\fra\01 - programacion y laboratorio 1\tps\tp3\tp_3_cascara_modif\movies.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<ctype.h>
+	"movies.h"
+	"datos.h"
+
